@@ -1,0 +1,168 @@
+h1 {
+    color: rgb(194, 59, 104);
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1px;
+    border-radius: 1rem;
+    border: 2px solid palevioletred;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: pink;
+    margin: 0;
+    padding: 0 12rem;
+    text-align: center;
+}
+
+.historiaJP {
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5rem;
+    color: rgb(194, 59, 104);
+    border-radius: 1rem;
+    border: 2px solid palevioletred;
+}
+
+.historia {
+    font-size: 2rem;
+}
+
+caption {
+    border: solid palevioletred;
+    margin-bottom: 2px;
+}
+
+table {
+    font-family: monospace;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border: solid 2px palevioletred;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: palevioletred;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 1rem;
+
+}
+
+.div {
+
+    padding: 2rem;
+}
+
+ul {
+
+    border: 1px solid #ccc;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+li {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+
+}
+
+em {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.aNav {
+    display: block;
+    height: 1rem;
+    width: 10rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+a {
+    color: palevioletred;
+    text-decoration: none;
+    background-color: rgb(250, 250, 250);
+    padding: .8rem;
+    border: solid palevioletred;
+    border-radius: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.imgIndex {
+    height: auto;
+    width: 100%;
+    border: 2px solid palevioletred;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    border: 2px solid slateblue;
+}
+
+form {
+    color: rgb(208, 80, 123);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    border: 2px solid palevioletred;
+    margin: .5rem;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+    height: 60vh;
+    border-radius: 1rem;
+}
+
+textarea {
+    height: 8rem;
+    margin-bottom: 1rem;
+
+}
+
+input[type="submit"]:hover {
+    background-color: pink;
+    color: white;
+    box-shadow: 0 0 5px 0 rgb(190, 110, 110);
+    border: 1px solid rgb(203, 23, 83);
+
+}
+
+.cSubmit {
+    color: rgb(215, 79, 125);
+    font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.pinks{
+    color: palevioletred;
+    
+}
